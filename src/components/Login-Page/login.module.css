@@ -1,0 +1,143 @@
+.loginbox{
+   position:absolute;
+	width: auto;
+	height:auto;
+	top: calc(50% - 240px);
+	left: calc(40% - 160px);
+   border-radius:15px 15px 15px 15px;
+   box-shadow:0 0 10px rgb(226, 147, 147);
+   background-color:rgb(231, 186, 186);
+}
+.c1{
+   box-shadow:0 0 10px rgb(226, 147, 147);
+   background-color:rgb(231, 186, 186);
+   width:300px;
+   height:500px;
+   display:inline-block;
+   border-radius:15px 15px 15px 15px;
+}
+
+.c11{
+   background-image:url('https://media.istockphoto.com/id/1203450700/vector/snow-capped-mountain-and-meadow.jpg?s=612x612&w=0&k=20&c=A07vcz7uZb-1sFE5-Kw7RypzRAvP2UPujWgATlHzCbE=');
+   background-size:300px 400px;
+   background-repeat: no-repeat;
+   background-color:rgb(230, 91, 91);
+   width:300px;
+   height:400px;
+   display:inline-block;
+   position:absolute;
+   z-index:4;
+   border-radius:15px 15px 200px 200px;
+}
+#left, #right {
+   color:white;
+   display: inline-block;
+   width:146px;
+   height: 500px;
+   background-color:white;
+   cursor:pointer;
+}
+#left{
+   border-radius:15px 0px 0px 15px;
+}
+#right{
+   border-radius:15px 15px 15px 0px;
+}
+.left_hover{
+   color:#EE9BA3;
+   box-shadow: 5px 0 18px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+.right_hover{
+   box-shadow: -5px 0 15px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+.s1class{
+   color:#748194;
+   position:absolute;
+   bottom:0;
+   left:63%;
+   margin-left: -50%;
+}
+.s1class span,  .s2class span{
+   display:block;
+}
+.su{
+   font-size:20px;
+}
+.s2class{
+   color:#748194;
+   position:absolute;
+   bottom:0;
+   right:63%;
+   margin-right: -50%;
+}
+.mainhead{
+   color:white;
+   font-size:50px;
+   text-align:center;
+   margin-top:50px;
+}
+.mainp{
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:10px;
+}
+.c2{
+   box-shadow:0 0 10px rgb(226, 147, 147);
+   background-color:rgb(231, 186, 186);
+   width:300px;
+   height:500px;
+   border-radius:15px;
+   position:absolute;
+   left:370px;
+   display:inline-block;
+}
+.username{
+   font-weight: bold;
+   width: 230px;
+   margin: 0 35px 30px ;
+   height: 50px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F6F7F9;
+   color: #748194;
+   font-size: 14px;
+}
+.btnlogin{
+   font-weight: bold;
+   width: 200px;
+   margin: 0 50px 0px;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #EE9BA3;
+   font-size: 14px;
+}
+.signup1{
+   color:#748194;
+   font-size:30px;
+   margin-left: 90px;
+   margin-top: 20px;
+}
+a{
+   text-decoration: none;
+}
+.signup2{
+   color:#748194;
+   font-size:20px;
+   text-align:center;
+}
+.signup{
+   display:initial;
+}
+.signin{
+   display:initial;
+}
